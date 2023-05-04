@@ -2,14 +2,16 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+
 }
 
 body{
-    background: red;
+    background: black;
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 header{
@@ -17,8 +19,20 @@ header{
     width: 400px;
     height: 10vh;
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
 }
-
+.nomeuser{
+    
+    height:20px;
+    background:#e8e8e8;
+}
+.nomeuser1{
+    
+    height:20px;
+    background:#e8e8e8;
+}
 main{
     background:rgb(60,64,67);
     width: 400px;
@@ -40,6 +54,20 @@ main .dinheiro{
     width: 90%;
     min-height:80px;
     margin:3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.valor{
+    width: 45%;
+    height:50%;
+    background:#e8e8e8;
+}
+.agendado{
+    width: 45%;
+    height:50%;
+    background:#e8e8e8;
 }
 
 main .ferramentas{
@@ -47,6 +75,16 @@ main .ferramentas{
     width: 90%;
     min-height:120px;
     margin:3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaozinho{
+    width: 50px;
+    height:50px;
+    background:#e8e8e8;
+    margin:10px;
+    border-radius:15px
 }
 
 main .banner{
